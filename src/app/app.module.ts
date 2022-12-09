@@ -29,6 +29,10 @@ const myroute:Routes=[
   {
     path:"dashboard",
     component:DaskboardComponent
+  },
+  {
+    path:"profileview",
+    component:ViewprofileComponent
   }
 ]
 

@@ -25,11 +25,11 @@ export class UserloginComponent {
         let userId=response.userId
         console.log(userId)
         localStorage.setItem("userinfo",userId)
-        this.route.navigate(["/userview"])
+        this.route.navigate(["/profileview"])
       } else {
         alert(response.message)
       }
-    }
+      }
       
 
       
